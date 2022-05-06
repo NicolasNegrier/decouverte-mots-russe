@@ -77,9 +77,59 @@ footer {
     bottom: 0;
 }
 
-#test {
+/* PARTIE COULEURS */
+
+.tube {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 15vh;
+}
+
+.color {
+    width: 90%;
+    height: 100%;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 4rem;
+    text-shadow: 1px 1px 2px white;
+}
+
+.red {
     background-color: red;
-    width: 80vw;
-    height: 800vh;
-    border-radius: 100%;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.indigo {
+    background-color: indigo;
+}
+
+.purple {
+    background-color: purple;
 }
